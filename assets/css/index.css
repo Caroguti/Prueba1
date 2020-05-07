@@ -19,6 +19,39 @@ nav{
     background-color: #660066;
 }
 
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold
+}    
+
+h3{
+    font-size:25px;
+}
+
+.sub-contacto{
+    width:20%;
+    color:#373A3C;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    h2{
+        font-size:52px;
+    }    
+}
+
+ @media screen and (min-width:320px) and (max-width:768px){
+    h2{
+        font-size:35px;
+    }  
+    
+    .sub-contacto{
+        width:50%;
+    }
+}
+
+
 /*font-family: 'Gothic A1', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Open Sans', sans-serif;
