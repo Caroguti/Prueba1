@@ -2,9 +2,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     color:#373A3C;
 }
-
-nav{
-    position: fixed;
+.navbar{
+    width:100%;
+    background-color: #660066;
 }
 
 .navbar-brand{
@@ -15,9 +15,6 @@ nav{
 .nav-link{
     font-family: 'Gothic A1', sans-serif;
     font-size:16px;
-}
-.navbar{
-    background-color: #660066;
 }
 
 h1{
@@ -69,14 +66,23 @@ h3{
     color:#373A3C; 
 }
 
-.sub-sobremi, .sub-experiencia, .sub-trabajos, .sub-contacto{
+.boton{
+    border:  1px solid #DDDDDD;
+    background-color: #660066;
+    color: #ffffff;
+    padding: 4px 3px;
+    font-size: 16px;
+  }
+  
+
+.subrayados{
     width:20%;
     color:#373A3C;
     border: 1px solid;
     border-radius: 3px;
 }
 
-i{
+.fas, .far{
 font-size: 150px;
 color: #660066;
 }
@@ -104,7 +110,29 @@ h6{
     padding-top:8%;
 }
 
+.div-boton{
+    padding-bottom:10%;
+}
 
+.footer{
+    background-color: #660066;
+    color:#ffffff; 
+}
+
+
+.footer1{
+    font-family:'Oswald', sans-serif;;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer2{
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
  @media screen and (min-width:320px) and (max-width:768px){
     
     h1, h2{

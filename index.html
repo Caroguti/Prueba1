@@ -13,31 +13,30 @@
 
  <!--Navbar fijo-->
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#inicio">M</a>
-                <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav navbar-light ml-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#sobremi">Sobre mí</span></a>
-                    </li>
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#experiencia">Experiencia</a>
-                    </li>
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#trabajos">Trabajos</a>
-                    </li>
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-          </nav>
-         
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#inicio">C</a>
+    <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav pl-2 ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#sobremi">Sobre mí <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#experiencia">Experiencia</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#trabajos">Trabajos</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
+          
             <!--Sección con foto principal-->
             <header id="inicio" class="hero-section">
                <div class="row justify-content-center header m-auto">
@@ -60,17 +59,68 @@
                     </h4>
                 </div>
                 
-                <hr class="sub-sobremi">
+                <hr class="subrayados">
 
                 <div class="row">
                     <div class="col">
-                      <p class="my-5 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis enim maxime qui quam necessitatibus eligendi.<br><br> Animi facere nesciunt consequuntur nemo voluptatibus dolor possimus optio quis minus eaque assumenda, atque consequatur.<br><br>.</p>
+                      <p class="my-5 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis enim maxime qui quam necessitatibus eligendi.<br><br> Animi facere nesciunt consequuntur nemo voluptatibus dolor possimus optio quis minus eaque assumenda, atque consequatur.<br><br></p>
+                      <button  class="btn boton" onclick='boton()' data-toggle="tooltip" data-placement='right' title='Más info académica'>Mis estudios</button>
                     </div>
                     <div class="col">
-                        <p class="my-5 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis enim maxime qui quam necessitatibus eligendi.<br><br> Animi facere nesciunt consequuntur nemo voluptatibus dolor possimus optio quis minus eaque assumenda, atque consequatur.<br><br>.</p>
+                        <p class="my-5 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis enim maxime qui quam necessitatibus eligendi.<br><br> Animi facere nesciunt consequuntur nemo voluptatibus dolor possimus optio quis minus eaque assumenda, atque consequatur.<br><br></p>
+
+                        <button  class="btn boton" onclick='boton()' data-toggle="tooltip" data-placement='right' title='Más info personal'>Mis intereses</button> 
                     </div>
                 </div>
             </div>
+
+
+            <div class="container m-auto pt-5">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="row m-auto">
+                          <div class="col">
+                              <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                          </div>
+                          <div class="col">
+                              <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                          </div>
+                          <div class="col">
+                              <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                          </div>
+                          <div class="col">
+                              <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                          </div>
+                      </div>
+                      
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row m-auto">
+                          <div class="col">
+                          <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                          </div>
+                          <div class="col">
+                          <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                      </div>
+                      <div class="col">
+                          <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                      </div>
+                      <div class="col">
+                          <img src="assets/img/bg_hero.png" class="d-block w-100 rounded" alt="...">
+                      </div>
+                      </div>
+                  </div>
+                  </div>
+                  <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  </ol>
+              </div>
+          </div>
+        </section>
+  
+    
         </section>
 
             
@@ -81,7 +131,7 @@
               
               <h3 class="pt-3 ptb-2">MI EXPERIENCIA</h3>
 
-              <hr class="sub-experiencia">
+              <hr class="subrayados">
 
               <div class="row">
 
@@ -108,7 +158,7 @@
 
               <div>
                   <h3 class="subtitulo-trabajos pb-2 text-white text-center">MIS ÚLTIMOS TRABAJOS</h3>  
-                  <hr class="sub-trabajos text-white">
+                  <hr class="subrayados text-white">
               </div>
 
               <div class="card-deck p-5 my-5">
@@ -141,17 +191,17 @@
                   
          </div>
       
-            <!--Sección de formulario de contacto (Typeform)-->
-        
+            <!--Sección de formulario de contacto (Typeform)-->   
+
             <div id="contacto" class="container align-middle">
 
                 <div class="text-center m-5 p-lg-5">
                     <h3 class="pt-5 ptb-2">CONTACTO</h3>
-                    <hr class="sub-contacto">
+                    <hr class="subrayados">
                     <h4 class="py-5 mt-5">¿Quieres saber más sobre mí o enviarme un mensaje?</h3>
                 </div>
            
-                <div class="text-center">
+                <div class="text-center div-boton">
                     <a class="typeform-share button" href="https://carolagutierrez.typeform.com/to/ODGIDG" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#660066;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:3px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">¡Contáctame! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                 </div>
 
@@ -159,13 +209,27 @@
              
             <!--Sección footer (con links a tus redes sociales)-->
           
-          <section>
-
-          </section>
     
+       <section class="footer">
+
+             <div class="row justify-content-center p-5">
+   
+               <div class="col col-lg-4 col-sm-10 text-center pt-3 footer1">CAROLINA</div>
+               <div class="col col col-lg-4 col-sm-10 footer2">  
+                <a href="http://www.github.com/"><i class="fab fa-github-square"></i></a>
+                <a href="http://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="http://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                <a href="http://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+               </div>
+    
+            </div>
+   
+      </section>
+    
+
       <!--Script de JQuery 3.4.1-->
-            
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
 
     <!--Script de Popper 1.16.0 JS-->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
